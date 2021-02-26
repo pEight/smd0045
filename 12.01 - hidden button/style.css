@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Ani, sans-serif;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #6CB4E0;
+}
+
+#main button {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 100%;
+  font-size: 30px;
+  font-family: inherit;
+
+  border: none;
+  box-shadow: 0px 0px 20px rgba(143, 36, 31, 0.5);
+}
+
+#main button:hover {
+  background-color: #0B2942;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+#main p {
+  margin: 150px 0 100px;
+  font-size: 50px;
+}

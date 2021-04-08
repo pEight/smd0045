@@ -18,13 +18,7 @@ function people() {
   People.prototype = { getName, getAge };
   People.constructor = People;
 
-  function gen(name, age) {
-    return new People(name, age);
-  }
-
-  return {
-    People,
-  };
+  return { People };
 }
 
 const  { People } = people();

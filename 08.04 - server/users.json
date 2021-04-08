@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Phillipe Queiroz",
+    "age": 22,
+    "course": "Ciência da Computação"
+  },
+  {
+    "name": "João da Silva",
+    "age": 50,
+    "course":  "Sistemas e Mídias Digitais"
+  },
+  {
+    "name": "Pedro Ernest",
+    "age": 21,
+    "course": "Ciência da Computação"  
+  },
+  {
+    "name": "Maria da Silva",
+    "age": 25,
+    "course": "Ciência da Computação"
+  },
+  {
+    "name": "Carla da Silva",
+    "age": 20,
+    "course": "Psicologia"
+  }
+]

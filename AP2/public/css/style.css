@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  overflow-y: hidden;
+
+  color: #f7f3e9;
+  font-family: 'Trebuchet MS';
+}
+
+
+
+.header {
+  background-color: #f05945;
+  padding: 10px;
+  height: 4vh;
+}
+
+.header, .main {
+  padding-left: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.main {
+  background-color: #f7f3e9;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.res {
+  color: #0005;
+  font-size: 32px;
+  height: 50px;
+}
+
+.panel, .res {
+  width: 350px;
+}
+
+.inp {
+  width: 200px;
+  height: 25px;
+  border: 1px solid #a3d2ca;
+  padding-left: 5px;
+}
+
+.inp:focus {
+  border-color: #5eaaa8;
+  outline: none;
+}
+
+.btn {
+  background-color: #f05945;
+  height: 28px;
+  color: #f7f3e9;
+  border: none;
+  margin-left: 5px;
+  padding: 0 10px;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #D95F34;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.inp, .btn {
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4vh;
+  
+  background-color: #f05945;
+}
